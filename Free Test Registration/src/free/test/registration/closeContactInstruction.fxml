@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="36.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information for if youve recently been in contact with someone positive" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="mainMenu" layoutX="24.0" layoutY="307.0" onAction="#returnToMenu" text="Return to main menu" />
+      <TextArea layoutX="16.0" layoutY="55.0" prefHeight="249.0" prefWidth="478.0" text="To begin self-isolation for 14 days from your last contact with the person who has tested positive. It’s really important to do this even if you don’t feel unwell because, if you have been infected, you could become infectious to others at any point up to 14 days. Failure to self-isolate for the full time-period can result in a fine, starting from £1,000. Your household doesn’t need to self-isolate with you, if you do not have symptoms, but they must take extra care to follow the guidance on social distancing and handwashing and avoid contact with you at home.&#10;Test if needed: if you develop symptoms of coronavirus, other members of your household must self-isolate immediately at home for 14 days and you must get a test to check if you have coronavirus or call 119 if you have no internet access. If your test is positive, you must continue to stay at home for at least 10 days and we will get in touch to ask about your contacts since they must self-isolate. If your test is negative, you must still complete your 14-day self-isolation period because the virus may not be detectable yet – this is crucial to avoid unknowingly spreading the virus.”" wrapText="true" />
+    </children>
+</AnchorPane>

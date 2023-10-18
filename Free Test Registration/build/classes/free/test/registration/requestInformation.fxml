@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Button fx:id="applyButton" layoutX="206.0" layoutY="307.0" onAction="#goToTest" text="Apply for a test" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="95.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Information">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="mainMenu" layoutX="24.0" layoutY="307.0" onAction="#returnToMenu" text="Return to main menu" />
+      <TextArea layoutX="19.0" layoutY="49.0" prefHeight="255.0" prefWidth="475.0" text="The main symptoms of COVID-19 consist of the following: &#10;- Persistent cough&#10;- Higher temperature&#10;- Lack of smell and taste&#10;As soon as you experience coronavirus symptoms, medical advice is clear: you must self-isolate for at least 10 days. Anyone else in your household must self-isolate for 14 days from when you started having symptoms&#10;&#10;If you are experiencing any of the above, please apply for a test. &#10;You can do this by clicking the &quot;Apply for a test&quot; button located &#10;at the bottom of this page.&#10;For more in-depth details surronding symptoms and general information&#10;about COVID-19, please visit the following:&#10;https://www.nhs.uk/conditions/coronavirus-covid-19/symptoms/" wrapText="true" />
+    </children>
+</AnchorPane>

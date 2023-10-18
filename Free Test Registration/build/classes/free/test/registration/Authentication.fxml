@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="82.0" layoutY="311.0" onAction="#submitDetails" text="Sign Up" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="firstNameTF" layoutX="45.0" layoutY="58.0" promptText="First Name" />
+      <TextField fx:id="emailTF" layoutX="46.0" layoutY="125.0" promptText="Email Address" />
+      <TextField fx:id="secondNameTF" layoutX="45.0" layoutY="91.0" promptText="Second Name" />
+      <TextField fx:id="phoneTF" layoutX="46.0" layoutY="193.0" promptText="Phone Number" />
+      <TextField fx:id="houseTF" layoutX="47.0" layoutY="226.0" promptText="House Number" />
+      <TextField fx:id="postcodeTF" layoutX="47.0" layoutY="258.0" promptText="Postcode" />
+      <Text layoutX="154.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Authentication Page">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="emailLogInTF" layoutX="327.0" layoutY="71.0" promptText="Email Address" />
+      <TextField fx:id="passwordTF" layoutX="46.0" layoutY="159.0" promptText="Password" />
+      <Text layoutX="94.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" />
+      <Text layoutX="379.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" />
+      <TextField fx:id="passwordLogInTF" layoutX="327.0" layoutY="105.0" promptText="Password" />
+      <CheckBox fx:id="over18CB" layoutX="48.0" layoutY="290.0" mnemonicParsing="false" text="I am over 18" />
+      <Button fx:id="LogInButton" layoutX="365.0" layoutY="146.0" onAction="#LogIn" text="Log In" />
+    </children>
+</AnchorPane>

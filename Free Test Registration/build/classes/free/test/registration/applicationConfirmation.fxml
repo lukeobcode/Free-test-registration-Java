@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="66.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Application Success">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="mainMenu" layoutX="190.0" layoutY="251.0" onAction="#returnToMenu" text="Return to main menu" />
+      <TextArea fx:id="confirmationDetails" layoutX="106.0" layoutY="94.0" prefHeight="143.0" prefWidth="299.0" wrapText="true" />
+    </children>
+</AnchorPane>

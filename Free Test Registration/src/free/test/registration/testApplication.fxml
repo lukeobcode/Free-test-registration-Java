@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Button fx:id="testApplicationButton" layoutX="206.0" layoutY="283.0" onAction="#applyForTest" text="Apply for a test" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="134.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Application">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="symptomsCB" layoutX="132.0" layoutY="212.0" mnemonicParsing="false" text="I  am experiencing COVID-19 Symptoms" />
+      <CheckBox fx:id="smsCB" layoutX="132.0" layoutY="235.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="221.0" text="I would like to be contacted via SMS" />
+      <CheckBox fx:id="emailCB" layoutX="132.0" layoutY="258.0" mnemonicParsing="false" text="I would like to be contacted via Email" />
+      <TextField fx:id="emailConfirmTF" layoutX="160.0" layoutY="91.0" prefHeight="27.0" prefWidth="197.0" promptText="Confirm Email" />
+      <TextField fx:id="deliverHouseTF" layoutX="160.0" layoutY="151.0" prefHeight="27.0" prefWidth="198.0" promptText="House number to be delivered to " />
+      <TextField fx:id="phoneConfirmTF" layoutX="161.0" layoutY="121.0" prefHeight="27.0" prefWidth="198.0" promptText="Confirm Phone Number" />
+      <TextField fx:id="postcodeDeliveryTF" layoutX="160.0" layoutY="180.0" prefHeight="27.0" prefWidth="198.0" promptText="Postcode to be delivered to " />
+      <Button fx:id="mainMenu" layoutX="14.0" layoutY="297.0" onAction="#returnToMenu" text="Return to main menu" />
+      <Button fx:id="informationButton" layoutX="14.0" layoutY="263.0" onAction="#request" text="Request Advice" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="free.test.registration.FXMLDocumentController">
+    <children>
+        <Button fx:id="testButton" layoutX="205.0" layoutY="93.0" onAction="#goToTest" text="Apply for a test" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="212.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="informationButton" layoutX="198.0" layoutY="137.0" onAction="#request" text="Symptom Enquiry" />
+      <Button fx:id="shareContactButton" layoutX="89.0" layoutY="177.0" onAction="#request" text="Share contact information of those recently in contact with" />
+      <Button fx:id="IsolationButton" layoutX="154.0" layoutY="240.0" onAction="#goToCloseContactPage" text="Close Contact Isolation Instructions" />
+      <Text layoutX="62.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you've been in close contact with a  positive tested individual click here:" />
+      <Text layoutX="119.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you're experiencing COVID-19 symptoms click here:" />
+      <Button fx:id="IsolationButton1" layoutX="190.0" layoutY="298.0" text="Isolation Instructions" />
+    </children>
+</AnchorPane>
